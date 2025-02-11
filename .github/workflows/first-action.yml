@@ -8,6 +8,10 @@ jobs:
         run: echo "Hello World Jyoti"
       - name: Print Goodbye
         run: echo "Done Bye!"
-        
+      - run: |
+            echo "first output"
+            echo "second output"
+# If you need to run multiple shell commands (or multi-line commands, e.g., for readability),
+#you can easily do so by adding the pipe symbol (|) as a value after the run: key.        
     
     
